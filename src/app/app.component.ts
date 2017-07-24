@@ -1,10 +1,7 @@
 import { Component, OnInit,  } from '@angular/core';
 import { BackandService      } from '@backand/angular2-sdk';
+import { Hero } from './hero';
 
-export class Hero {
-  id: number;
-  name: string;
-}
 const HEROES: Hero[] = [
   { id: 11, name: 'Mr. Nice' },
   { id: 12, name: 'Narco' },
